@@ -1,0 +1,21 @@
+heder{
+    background-color: blueviolet;
+    position: static;
+    top: 1rem;
+}
+.madal-container{
+   position: fixed;
+   background-color: rgb(0, 0, 255, .1);
+   backdrop-filter: blur(2px);
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+}
+.absolute-block{
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+}
